@@ -1,0 +1,40 @@
+.headerLeft ul {
+	list-style: none;
+	width: 140%;
+	justify-content: space-between;
+	align-items: center;
+	display: flex;
+}
+.headerRight ul {
+	width: 150%;
+	list-style: none;
+	display: flex;
+	justify-content: space-around;
+}
+
+.headerContainer {
+	display: flex;
+	width: 90%;
+	justify-content: space-between;
+	align-items: center;
+	/* background-color: aqua; */
+}
+
+.outerContainer {
+	position: stikcy;
+	top: 0;
+	display: flex;
+	justify-content: center;
+	/* background-color: rgb(148,132,132); */
+	background-color: rgb(20, 20, 20);
+	/* background-color: transparent; */
+	height: 10vh;
+	color: white;
+	transition: all 0.5s;
+	transition-timing-function: ease-in;
+	z-index: 1;
+	/* background-color: red; */
+}
+.navBlack {
+	background-color: black;
+}
